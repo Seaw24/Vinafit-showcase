@@ -45,7 +45,7 @@ Every frame, `Squat` builds a `RepContext` with pre-calculated geometry (angles,
 ### The Five Metrics
 
 | Metric | What It Detects | 
-|---|---|---|
+|---|---|
 | `DepthMetric` | Knee flexion angle — gates rep counting | 
 | `TrunkLeanMetric` | Forward/backward torso lean — lumbar load risk | 
 | `HeelRiseMetric` | Heel lift — ankle mobility flag (informational) | 
