@@ -29,6 +29,7 @@ This is a **showcase of the system architecture** for the VinaFit squat analysis
 ## System Architecture
 
 ### The Core Idea: Each Metric is Isolated
+Take an example of Squat, but this how all exercise work.
 
 Instead of one monolithic function analyzing everything, each form metric lives in its own class. They share data through a `RepContext` object but never talk to each other directly.
 
@@ -43,13 +44,13 @@ Every frame, `Squat` builds a `RepContext` with pre-calculated geometry (angles,
 
 ### The Five Metrics
 
-| Metric | What It Detects | Ships |
+| Metric | What It Detects | 
 |---|---|---|
-| `DepthMetric` | Knee flexion angle — gates rep counting | Day 1 |
-| `TrunkLeanMetric` | Forward/backward torso lean — lumbar load risk | Day 1 |
-| `HeelRiseMetric` | Heel lift — ankle mobility flag (informational) | Week 2 |
-| `TempoMetric` | Descent speed, bottom hold, eccentric control | Month 1 |
-| `HipShoulderSyncMetric` | "Good morning" pattern — hips rising before chest | Month 2 |
+| `DepthMetric` | Knee flexion angle — gates rep counting | 
+| `TrunkLeanMetric` | Forward/backward torso lean — lumbar load risk | 
+| `HeelRiseMetric` | Heel lift — ankle mobility flag (informational) | 
+| `TempoMetric` | Descent speed, bottom hold, eccentric control | 
+| `HipShoulderSyncMetric` | "Good morning" pattern — hips rising before chest  |
 
 ### Two Types of Feedback
 
