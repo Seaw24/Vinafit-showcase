@@ -1,17 +1,16 @@
-# VinaFit — AI Squat Coach for Vietnamese Office Workers
+# VinaFit — AI Home Workout Coach for Vietnamese
 
-> Real-time squat form analysis using on-device pose estimation.  
+> Real-time form analysis of multiple home workout exercise using on-device pose estimation.  
+> This repo only include 1 metric of the squat exercise.  
 > Built for Vietnamese users. Runs offline on mid-range Android phones.
 
 ---
 
 ## The Problem
 
-Vietnamese office workers aged 25–35 face a compounding physical problem: **8+ hours of desk work** followed by **motorbike commuting** in a hunched posture. The result is widespread lower back pain, tight hip flexors, and poor movement mechanics.
+Most current home workout app only suggested what exercise to do but never teach how to do it. 
 
-Squatting is one of the most effective corrective exercises — but without proper coaching, it can make things worse. Personal trainers are expensive (~300,000–500,000 VND/session) and gym culture in Vietnam is still developing. Most fitness apps give generic English feedback that misses the mark culturally and biomechanically.
-
-VinaFit is an attempt to fix this.
+VinaFit is an attempt to fix this by still have all the features of a normal exercising app ( suggesting exercise, build schedule, Progress tracking, ...) but have an additional feature that leverage AI to act like your coach during the exercise to suggest form fix, and giving instruction.
 
 ---
 
