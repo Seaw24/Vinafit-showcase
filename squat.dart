@@ -59,29 +59,4 @@ class Squat extends ExerciseBase {
   }
 }
 
-/// Minimal placeholder to demonstrate the metric interface.
-class _SquatMetric {
-  final String name;
-  final Map<String, dynamic> debugData = {};
 
-  _SquatMetric({required this.name});
-
-  void update(_SquatContext ctx) {
-    // Redacted: this is where proprietary coaching logic lives.
-    debugData['metric:$name'] = 'redacted';
-  }
-}
-
-class _SquatContext {
-  final SquatState squatState;
-  final int timestampMs;
-  final ResultIssues resultIssues;
-  final Map<String, dynamic> debugData;
-
-  _SquatContext({
-    required this.squatState,
-    required this.timestampMs,
-    required this.resultIssues,
-    required this.debugData,
-  });
-}
