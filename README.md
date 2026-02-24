@@ -199,3 +199,5 @@ If you're a researcher, engineer, or builder interested in AI fitness applicatio
 
 Architecture and non-proprietary code: MIT  
 Evaluation logic and thresholds: All rights reserved
+
+If you found this fun and helpful, please give this repo a star as your support. Thank youu!
